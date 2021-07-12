@@ -1,0 +1,29 @@
+@import "./../../_Style/variable.scss";
+.optusTitle {
+    text-align: $textalign;
+    .optusHome {
+        font-family: $fontfamilyHeavy;
+        font-weight: $fontweight;
+        text-align: $textalign;
+        color: $bcolor;
+        font-style: $fontstyle;
+        font-size: $fontsize4;
+    }
+    .selectTecht{
+        font-family: $fontfamilyBold;
+        font-weight: $fontweight400;
+        text-align: $textalign;
+        color: $bcolor;
+        font-style: $fontstyle;
+        font-size: $fontSize;
+        margin-top: $margintop;
+    }
+}
+  
+  
+  
+  
+  
+  
+ 
+  

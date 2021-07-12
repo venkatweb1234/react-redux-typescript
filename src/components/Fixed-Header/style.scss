@@ -1,0 +1,14 @@
+@import "./../../_Style/_variable.scss";
+
+.logo {
+    border: $border $blackColor;
+    width: $wd80;
+    margin: $margin;
+    margin-top: 1em;
+    background-color: $bcolor;
+    height: 2em;
+    .logoimg {
+        margin-top: 0.4em;
+        cursor: $cursor;
+    }
+}

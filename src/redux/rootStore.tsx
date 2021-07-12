@@ -8,7 +8,7 @@ import { rootSaga } from "./rootSagas";
 
 
 const middleWareSagas = createMiddlewareSaga();
-const middleWares = [logger, thunk, middleWareSagas];
+export const middleWares = [logger, thunk, middleWareSagas];
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(...middleWares)));
 middleWareSagas.run(rootSaga);
 export default store;
